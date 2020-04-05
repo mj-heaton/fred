@@ -1,0 +1,23 @@
+include LICENCE
+include setup*.py
+include README.rst
+include requirements.txt
+include MANIFEST.in
+
+recursive-include pipelines *
+recursive-include docs *
+recursive-include tests *
+recursive-include extra *
+recursive-include examples *
+recursive-include benchmarks *
+recursive-include fred *.jinja
+recursive-include fred *.html
+recursive-include fred *.svg
+recursive-include fred *.otf
+recursive-include fred *.tex
+recursive-include fred *.pdf
+recursive-include fred *.png
+recursive-include fred *.sh
+recursive-include fred *.md
+
+recursive-exclude .tox *
