@@ -21,7 +21,7 @@ Once the virtual environment has been activated you can install the required pyt
 
 Then it should be straight-forward to run the source (tarball) and binary (wheel) distribution builds:
 
-    python setup.py sdist bdist_wheel
+    python setup.py sdist
 
 The output files should appear in the 'dist' directory. 
 
