@@ -105,3 +105,11 @@ try:
     __fred_hostname__ = os.environ['FRED_HOSTNAME']
 except KeyError:
     __fred_hostname__ = socket.gethostname()
+
+
+
+
+
+
+
+
